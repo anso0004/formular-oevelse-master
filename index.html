@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Burger menu-øvelse</title>
+  <link rel="stylesheet" href="css/demo.css" />
+  <!-- Ret i nedenståendde stylesheet -->
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <header class="banner">
+    <div class="logo">
+      <a href="#0">Logo</a>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <header>
+        <h2>Kontakt os</h2>
+        <p>
+          Udfyld kontaktformularen for at kontakte os. Vi glæder os til at
+          høre fra dig.
+        </p>
+      </header>
+
+      <form name=”kontakt” netlify>
+        <!-- Formular-indhold -->
+
+        <div class="form-felt">
+          <label for="navn">Fornavn</label>
+          <input type="text" name="fname" id="fname">
+        </div>
+
+        <div class="form-felt">
+          <label for="navn">Efternavn</label>
+          <input type="text" name="ename" id="ename">
+        </div>
+
+        <div class="form-felt">
+          <label> Email</label>
+          <input type="email" name="email" id="email" />
+        </div>
+
+        <div class="form-felt">
+          <label for="navn">
+            Profil
+            <select name="liste">
+              <option value="Vælg"></option>
+              <option value="studerende">Studerende</option>
+              <option value="underviser">Underviser</option>
+            </select>
+          </label>
+        </div>
+
+        <div class="form-felt">
+          <label for="name">
+            Besked
+            <textarea name="besked" id="" cols="70" rows="5"></textarea>
+          </label>
+        </div>
+
+      </form>
+    </section>
+  </main>
+</body>
+
+</html>
